@@ -21,5 +21,9 @@ def stock_picker (prices)
       end
     end
   end
+  puts ("For the highest possible profit ($#{profit})," +
+    " buy on day #{buy_day + 1} and sell on day #{sell_day + 1}.")
   return [buy_day, sell_day]
 end
+
+stock_picker([17, 3, 6, 9, 15, 8, 6, 1, 10])
