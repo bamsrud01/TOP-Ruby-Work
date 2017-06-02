@@ -14,6 +14,10 @@ This repository contains various small projects using Ruby.  All projects are pa
 
   This file accepts an array representing stock prices, one per day.  Given these prices, the file will return two days: The day to buy and the day to sell.  By following these guidelines, the user's profit will be maximized.
 
+### 03. Substring Counter
+
+  This file accepts a string, as well as a dictionary array.  The file will test the string, keeping track of which dictionary items appeared in the string, as well as the number of times they occur, case insensitive.
+
 ## Author
 
 - Barrett Amsrud
